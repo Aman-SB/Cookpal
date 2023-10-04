@@ -19,7 +19,7 @@
   padding-left: 5vw;
   padding-right: 5vw;
 }
-.nav-links{
+.nav-links {
   color: #253d4e;
   position: relative;
   left: 24vw;
@@ -40,6 +40,21 @@
   display: flex;
   margin-top: 30px;
 }
+.carousel-text {
+  color: #fff;
+  padding: 20px;
+  padding-left: 100px;
+  position: absolute;
+  bottom: 0;
+  width: 35%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* Align text to the left and in the center */
+  align-items: flex-start;
+  justify-content: center;
+}
+
 .text_hero {
   position: relative;
   z-index: 2000;
@@ -76,7 +91,7 @@
   cursor: pointer;
 }
 
-.mobile-menu{
+.mobile-menu {
   display: none;
 }
 
@@ -231,23 +246,23 @@ ul > li {
 
 @media (max-width: 768px) {
   .nav-links {
-      display: none;
-      flex-direction: column;
-      background-color: white;
-      position: absolute;
-      top: 60px;
-      left: 0;
-      height: 100vh;
-      width: 30%;
-      z-index: 10;
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    height: 100vh;
+    width: 30%;
+    z-index: 10;
   }
 
   .nav-links.active {
-      display: flex;
+    display: flex;
   }
 
   .mobile-menu {
-      display: block;
+    display: block;
   }
 
   .nav-links > .highlight {

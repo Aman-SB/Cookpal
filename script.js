@@ -121,11 +121,11 @@ const data = [
   },
 ];
 
-const mobileMenu = document.querySelector('.mobile-menu');
-const navLinks = document.querySelector('.nav-links');
+const mobileMenu = document.querySelector(".mobile-menu");
+const navLinks = document.querySelector(".nav-links");
 
-mobileMenu.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
+mobileMenu.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
 });
 
 const cardContainer = document.getElementById("card_container");
